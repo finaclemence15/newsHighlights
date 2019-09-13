@@ -1,1 +1,96 @@
-<h1> Hello World </h1>
+<!-- <h1> Hello World </h1> -->
+
+ 
+{% extends 'base.html' %}
+{% import 'macros.html' as macro%}
+
+
+<!-- Styles block -->
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+
+
+
+<!-- Content block -->
+{% block content %}
+
+
+<h1 class="jumbotron"> Karibu ni jamboNews</h1>
+
+
+<!-- Science Sources -->
+<div class="categories container" style="border: 2px solid black;
+background-color: lightblue;
+margin-bottom: 10px;
+border-radius: 5px;">
+  <h3> Science</h3>
+  <ul>
+    {{ macro.displaySourceList(science)}}
+  </ul>
+</div>
+
+
+<!-- Business Sources -->
+<div class="categories container"  style="border: 2px solid black;
+background-color: lightblue;
+margin-bottom: 10px;
+border-radius: 5px;">
+  <h3> Business</h3>
+  <ul>
+    {{ macro.displaySourceList(business)}}
+  </ul>
+</div>
+
+
+<!-- Entertainment Sources -->
+<div class="categories container"  style="border: 2px solid black;
+background-color: lightblue;
+margin-bottom: 10px;
+border-radius: 5px;">
+  <h3> Entertainment</h3>
+  <ul>
+    {{ macro.displaySourceList(entertainment)}}
+  </ul>
+</div>
+
+
+<!-- General Sources -->
+<div class="categories container"  style="border: 2px solid black;
+background-color: lightblue;
+margin-bottom: 10px;
+border-radius: 5px;">
+  <h3> General</h3>
+  <ul>
+    {{ macro.displaySourceList(general)}}
+  </ul>
+</div>
+
+
+<!-- Technology Sources -->
+<div class="categories container"  style="border: 2px solid black;
+background-color: lightblue;
+margin-bottom: 10px;
+border-radius: 5px;">
+  <h3> Technology</h3>
+  <ul>
+    {{ macro.displaySourceList(technology)}}
+  </ul>
+</div>
+
+
+<!-- Health Sources -->
+<div class="categories container"  style="border: 2px solid black;
+background-color: lightblue;
+margin-bottom: 10px;
+border-radius: 5px;">
+  <h3> Health</h3>
+  <ul>
+    {{ macro.displaySourceList(health)}}
+  </ul>
+</div>
+
+
+{% endblock %}
