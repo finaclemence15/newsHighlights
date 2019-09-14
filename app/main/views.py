@@ -1,6 +1,6 @@
 from flask import render_template,request,redirect,url_for
 from . import main
-from ..requests import get_source,get_article,search_article
+from ..requests import get_source,get_articles,search_articles
 # from .forms import ReviewForm
 # from ..models import Review
 
