@@ -1,9 +1,14 @@
 ## News Highlights
+
 An application that allows users to navigate through diferrent news website and see the news around the world 
+
 ## Created by 
-<!-- [finaclemence15] (https://github.com/finaclemence15) -->
+
 [finaclemence15](https://github.com/finaclemence15)
-08/9/2019
+
+## Date
+
+15/9/2019
 
 ### Description
 
@@ -16,8 +21,19 @@ News Highlight is a web application that helps busy people to catch up on the la
 3. As a user, I would want to see the image, description and the time a news article was created.
 4. As a user, I would want to click on an article and read the full article on the source website.
 
+## Features
+
+ List various news sources. # [checkbox:checked]
+ List articles from the selected news source.
+ Redirect user to the actual article.
+ Categorize news sources.
+ Search for articles.
+ Use flask sessions to save a users article snippet.
+ Use browser cookies to store favourite news sources.
+
 ## Installation
- ### Clone this using the command below:
+
+ ### Clone  the Repository using  command below:
 
 ```
 git clone https://github.com/finaclemence15/newsHighlights
@@ -30,10 +46,12 @@ Run the ./manage.py script on the terminal to open.
 ```
 
 ## Technologies Used
+
 * Python3.6
 * flask
 * Git Hub
 * Terminal
+
 ## Support and contact details
 
 * Email:finaclemence15@gmail.com
