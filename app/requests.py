@@ -1,5 +1,5 @@
 import urllib.request,json
-from .models import Source, Articles,Review
+from .models import Source, Articles
 
 # Getting api key
 api_key = None
@@ -12,7 +12,7 @@ articles_url = None
 def configure_request(app):
     global api_key,base_url,articles_url
     api_key = app.config['NEWS_API_KEY'] 
-    base_url = app.config['NEWS_API_BASE_URL']
+    base_url = app.config['SOURCE_API_BASE_URL']
     articles_url = app.config['ARTICLES_BASE_URL']
 
     
@@ -20,7 +20,7 @@ def configure_request(app):
 def get_source(category):
     '''
     Function that gets the json response to our url request.
-    '''
+    # '''
     get_sources_url = base_url.format(category,api_key)
 
     with urllib.request.urlopen(get_sources_url) as url:

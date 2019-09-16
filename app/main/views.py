@@ -17,25 +17,25 @@ def index():
     title = 'Home - Welcome to the News Website'
 
     #Getting Science Sources
-    science_source = get_source('science')
+    science_sources = get_source('science')
 
     #Getting Business Sources
-    business_source = get_source('business')
+    business_sources = get_source('business')
 
     #Getting Entertainment Sources
-    entertainment_source = get_source('entertainment')
+    entertainment_sources = get_source('entertainment')
 
     #Getting General Sources
-    general_source = get_source('general')
+    general_sources = get_source('general')
 
     #Getting Health Sources
-    health_source = get_source('health')
+    health_sources = get_source('health')
 
     #Getting Sports Sources
-    sports_source = get_source('sports')
+    sports_sources = get_source('sports')
 
     #Getting Technology Sources
-    technology_source = get_source('technology')
+    technology_sources = get_source('technology')
 
     search_article = requests.args.get('article_query')
 
