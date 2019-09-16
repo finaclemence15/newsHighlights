@@ -19,6 +19,7 @@ News Highlight is a web application that helps busy people to catch up on the la
 
 ```
 git clone https://github.com/finaclemence15/newsHighlights
+
 Run cd NewsHighlights in the terminal.
 
 Run chmod +x manage.py in the terminal.
@@ -27,8 +28,10 @@ Run the ./manage.py script on the terminal to open.
 ```
 
 ## Technologies Used
-* Python 3.6
-* Git version Control
+* Python3.6
+* flask
+* Git Hub
+* Terminal
 ## Support and contact details
 
 * Email:finaclemence15@gmail.com
