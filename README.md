@@ -23,7 +23,6 @@ News Highlight is a web application that helps busy people to catch up on the la
 
 ## Features
 
-```
  - [x]  List various news sources. 
  - [x] List articles from the selected news source.
  - [x] Redirect user to the actual article.
@@ -32,7 +31,6 @@ News Highlight is a web application that helps busy people to catch up on the la
  - [ ] Use flask sessions to save a users article snippet.
  - [ ] Use browser cookies to store favourite news sources.
 
-```
 ## Installation
 
  ### Clone  the Repository using  command below:
