@@ -50,7 +50,9 @@ Run the ./manage.py script on the terminal to open.
 ``` python3 manage.py test ```
 
 ## Running the web app in development
+
 ``` python3 manage.py server ```
+
 Open the app on your browser, by default on ``` 127.0.0.1:5000. ```
 
 ## Technologies Used
