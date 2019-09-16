@@ -9,21 +9,25 @@
 
 {% block styles %}
   {{ super() }}
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
 {% endblock %}
 
 
 
 <!-- Content block -->
+
+  
 {% block content %}
+<body style="background-color: #EAEDED ;">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
 
-<h1 class="jumbotron"> Welcome to the Hotest News</h1>
+<h1 class="jumbotron" style="color: black; font-family: 'Shadows Into Light', cursive; font-size: 80px; text-align: center;"> Welcome to the Hotest News</h1>
 
 
 <!-- Science Sources -->
 <div class="categories container" style="border: 2px solid black;
-background-color: lightblue;
+background-color: #85929E;
 margin-bottom: 10px;
 border-radius: 5px;">
   <h3> Science</h3>
@@ -35,7 +39,7 @@ border-radius: 5px;">
 
 <!-- Business Sources -->
 <div class="categories container"  style="border: 2px solid black;
-background-color: lightblue;
+background-color: #85929E;
 margin-bottom: 10px;
 border-radius: 5px;">
   <h3> Business</h3>
@@ -47,7 +51,7 @@ border-radius: 5px;">
 
 <!-- Entertainment Sources -->
 <div class="categories container"  style="border: 2px solid black;
-background-color: lightblue;
+background-color: #85929E;
 margin-bottom: 10px;
 border-radius: 5px;">
   <h3> Entertainment</h3>
@@ -59,7 +63,7 @@ border-radius: 5px;">
 
 <!-- General Sources -->
 <div class="categories container"  style="border: 2px solid black;
-background-color: lightblue;
+background-color: #85929E;
 margin-bottom: 10px;
 border-radius: 5px;">
   <h3> General</h3>
@@ -71,7 +75,7 @@ border-radius: 5px;">
 
 <!-- Technology Sources -->
 <div class="categories container"  style="border: 2px solid black;
-background-color: lightblue;
+background-color: #85929E;
 margin-bottom: 10px;
 border-radius: 5px;">
   <h3> Technology</h3>
@@ -83,7 +87,7 @@ border-radius: 5px;">
 
 <!-- Health Sources -->
 <div class="categories container"  style="border: 2px solid black;
-background-color: lightblue;
+background-color: #85929E;
 margin-bottom: 10px;
 border-radius: 5px;">
   <h3> Health</h3>
@@ -92,5 +96,5 @@ border-radius: 5px;">
   </ul>
 </div>
 
-
+</body>
 {% endblock %}
