@@ -17,7 +17,7 @@ News Highlight is a web application that helps busy people to catch up on the la
 ## Installation
  ##### Clone this using the command below:
 
-```python
+```
 git clone https://github.com/finaclemence15/newsHighlights
 Run cd NewsHighlights in the terminal.
 ```
