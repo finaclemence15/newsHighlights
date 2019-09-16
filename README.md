@@ -40,18 +40,14 @@ git clone https://github.com/finaclemence15/newsHighlights
 
 Run cd NewsHighlights in the terminal.
 
-Run chmod +x manage.py in the terminal.
-
-Run the ./manage.py script on the terminal to open.
-
 ```
 ## Running Tests
 
-``` python3 manage.py test ```
+``` python3.6 manage.py test ```
 
 ## Running the web app in development
 
-``` python3 manage.py server ```
+``` python3.6 manage.py server ```
 
 Open the app on your browser, by default on ``` 127.0.0.1:5000. ```
 
