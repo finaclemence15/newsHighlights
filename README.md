@@ -1,7 +1,7 @@
 ## News Highlights
 An application that allows users to navigate through diferrent news website and see the news around the world 
 ## Created by 
-[finaclemence] (https://github.com/finaclemence15)
+[finaclemence15] (https://github.com/finaclemence15)
 08/9/2019
 
 ### Description
