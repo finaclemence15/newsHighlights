@@ -37,12 +37,12 @@ def index():
     #Getting Technology Sources
     technology_sources = get_source('technology')
 
-    search_article = requests.args.get('article_query')
+    search_article = request.args.get('article_query')
 
     # if search_article:
     #     return redirect(url_for('search',query=search_article))
     # else:
-    return render_template('index.html', title = title, science = science_source, business = business_source, entertainment = entertainment_source, sports = sports_source, health = health_source, general = general_source, technology = technology_source)
+    return render_template('index.html', title = title, science = science_sources, business = business_sources, entertainment = entertainment_sources, sports = sports_sources, health = health_sources, general = general_sources, technology = technology_sources)
 
 
 @main.route('/source/<id>')
@@ -64,7 +64,7 @@ def search_main():
     '''
     title = 'Welcome to the News Website -- Search'
 
-    search_article = requests.args.get('article_query')
+    search_article = request.args.get('article_query')
 
     if search_article:
         return redirect(url_for('.search',query=search_article))
@@ -80,6 +80,6 @@ def search(query):
     '''
     query_list = query.split(" ")
     query_format = "+".join(query_list)
-    searched_articles = search_article(query_format)
+    searched_articles =search_article(query_format)
     title = f'Search results for "{query}"'
     return render_template('search.html',article = searched_articles,query=query)    
