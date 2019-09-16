@@ -50,7 +50,7 @@ def source(id):
     '''
     View source page function that returns the source and its articles.
     '''
-    all_articles = get_article(id)
+    all_articles = get_articles(id)
     title = f'Welcome to the News Website -- {id.upper()}'
     id_up = id.upper()
 
