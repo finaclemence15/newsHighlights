@@ -23,7 +23,7 @@ News Highlight is a web application that helps busy people to catch up on the la
 
 ## Features
 
- - [x] List various news sources.
+ - [x] ``` List various news sources. ```
  - [x] List articles from the selected news source.
  - [x] Redirect user to the actual article.
  - [x] Categorize news sources.
