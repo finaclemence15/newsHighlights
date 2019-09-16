@@ -15,16 +15,16 @@ News Highlight is a web application that helps busy people to catch up on the la
 4. As a user, I would want to click on an article and read the full article on the source website.
 
 ## Installation
- ##### Clone this using the command below:
+ ### Clone this using the command below:
 
 ```
 git clone https://github.com/finaclemence15/newsHighlights
 Run cd NewsHighlights in the terminal.
+
+Run chmod +x manage.py in the terminal.
+
+Run the ./manage.py script on the terminal to open.
 ```
-
-Run chmod +x run.py in the terminal.
-
-Run the ./run.py script on the terminal to open.
 
 ## Technologies Used
 * Python 3.6
