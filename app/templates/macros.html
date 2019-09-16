@@ -1,6 +1,7 @@
 
  
 {% macro displaySourceList(source_list) %}
+
 <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Courgette|Shadows+Into+Light&display=swap" rel="stylesheet">
 <div class="row">
   {% for source in source_list %}
@@ -11,10 +12,10 @@
   background-color: #EAEDED;
   height: 300px;
   overflow: scroll;">
-    <h3><a href="/source/{{source.id}}" style="color: teal; font-family: 'Cormorant Garamond', serif; font-size: 25px;font-style: bold;">{{source.name}}</a></h3>
+    <h3 style="color: #212F3C ; font-family: 'Cormorant Garamond', serif; font-size: 25px;font-style: bold;"> <strong> {{source.name}}</strong></h3>
 
     <p>{{source.description}}</p>
-    <button type="button"><a href="{{source.url}}" style="color: teal; font-family: 'Cormorant Garamond', serif; font-size: 20px;font-style: bold;">{{source.name}} Homepage</a></button>
+    <button type="button"> <strong><a href="{{source.url}}" style="color: #212F3C ; font-family: 'Cormorant Garamond', serif; font-size: 20px;font-style: bold;">{{source.name}} Homepage</a> </strong></button>
 
   </div>
   {% endfor %}
