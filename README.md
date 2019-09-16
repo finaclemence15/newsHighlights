@@ -54,8 +54,8 @@ Run the ./manage.py script on the terminal to open.
 
 ## Support and contact details
 
-* Email:finaclemence15@gmail.com
-* Phone number:0728947093
++ Email:finaclemence15@gmail.com
+- Phone number:0728947093
 
 ## License
 
