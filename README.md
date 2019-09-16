@@ -17,9 +17,10 @@ News Highlight is a web application that helps busy people to catch up on the la
 ## Installation
  ##### Clone this using the command below:
 
-git clone https://github.com/finaclemence15/PasswordLocker
-
-Run cd PasswordLocker in the terminal.
+```python
+git clone https://github.com/finaclemence15/newsHighlights
+Run cd NewsHighlights in the terminal.
+```
 
 Run chmod +x run.py in the terminal.
 
