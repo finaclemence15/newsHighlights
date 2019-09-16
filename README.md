@@ -2,7 +2,7 @@
 
 An application that allows users to navigate through diferrent news website and see the news around the world 
 
-## Created by ### [finaclemence15](https://github.com/finaclemence15)
+## Created by [finaclemence15](https://github.com/finaclemence15)
 
 ## Date
 
